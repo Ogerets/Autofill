@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9747D09F2875F90900498EB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747D09E2875F90900498EB8 /* AppDelegate.swift */; };
+		9747D0A12875F90900498EB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747D0A02875F90900498EB8 /* SceneDelegate.swift */; };
+		9747D0A32875F90900498EB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747D0A22875F90900498EB8 /* ViewController.swift */; };
+		9747D0A62875F90900498EB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9747D0A42875F90900498EB8 /* Main.storyboard */; };
+		9747D0A82875F90C00498EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9747D0A72875F90C00498EB8 /* Assets.xcassets */; };
+		9747D0AB2875F90C00498EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9747D0A92875F90C00498EB8 /* LaunchScreen.storyboard */; };
+		9747D0BF2875FC2D00498EB8 /* VirgilCrypto.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B32875FC2C00498EB8 /* VirgilCrypto.xcframework */; };
+		9747D0C02875FC2D00498EB8 /* VirgilCrypto.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B32875FC2C00498EB8 /* VirgilCrypto.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0C12875FC2D00498EB8 /* VSCFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B42875FC2D00498EB8 /* VSCFoundation.xcframework */; };
+		9747D0C22875FC2D00498EB8 /* VSCFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B42875FC2D00498EB8 /* VSCFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0C32875FC2D00498EB8 /* VirgilSDKRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B52875FC2D00498EB8 /* VirgilSDKRatchet.xcframework */; };
+		9747D0C42875FC2D00498EB8 /* VirgilSDKRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B52875FC2D00498EB8 /* VirgilSDKRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0C52875FC2D00498EB8 /* VirgilE3Kit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B62875FC2D00498EB8 /* VirgilE3Kit.xcframework */; };
+		9747D0C62875FC2D00498EB8 /* VirgilE3Kit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B62875FC2D00498EB8 /* VirgilE3Kit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0C72875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B72875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework */; };
+		9747D0C82875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B72875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0C92875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B82875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework */; };
+		9747D0CA2875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B82875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0CB2875FC2D00498EB8 /* VirgilSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B92875FC2D00498EB8 /* VirgilSDK.xcframework */; };
+		9747D0CC2875FC2D00498EB8 /* VirgilSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B92875FC2D00498EB8 /* VirgilSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0CD2875FC2D00498EB8 /* VSCPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BA2875FC2D00498EB8 /* VSCPythia.xcframework */; };
+		9747D0CE2875FC2D00498EB8 /* VSCPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BA2875FC2D00498EB8 /* VSCPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0CF2875FC2D00498EB8 /* VirgilCryptoPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BB2875FC2D00498EB8 /* VirgilCryptoPythia.xcframework */; };
+		9747D0D02875FC2D00498EB8 /* VirgilCryptoPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BB2875FC2D00498EB8 /* VirgilCryptoPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0D12875FC2D00498EB8 /* VSCCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BC2875FC2D00498EB8 /* VSCCommon.xcframework */; };
+		9747D0D22875FC2D00498EB8 /* VSCCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BC2875FC2D00498EB8 /* VSCCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0D32875FC2D00498EB8 /* VSCRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BD2875FC2D00498EB8 /* VSCRatchet.xcframework */; };
+		9747D0D42875FC2D00498EB8 /* VSCRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BD2875FC2D00498EB8 /* VSCRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0D52875FC2D00498EB8 /* VirgilSDKPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BE2875FC2D00498EB8 /* VirgilSDKPythia.xcframework */; };
+		9747D0D62875FC2D00498EB8 /* VirgilSDKPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BE2875FC2D00498EB8 /* VirgilSDKPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9747D0DE2875FC5200498EB8 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0DD2875FC5200498EB8 /* AuthenticationServices.framework */; };
+		9747D0E12875FC5200498EB8 /* CredentialProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747D0E02875FC5200498EB8 /* CredentialProviderViewController.swift */; };
+		9747D0E42875FC5200498EB8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9747D0E22875FC5200498EB8 /* MainInterface.storyboard */; };
+		9747D0E92875FC5300498EB8 /* TestAutoFillProvider.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9747D0DC2875FC5200498EB8 /* TestAutoFillProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9747D0EF2875FED200498EB8 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0DD2875FC5200498EB8 /* AuthenticationServices.framework */; };
+		9776D386287605FE004DD47A /* VirgilCrypto.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B32875FC2C00498EB8 /* VirgilCrypto.xcframework */; };
+		9776D387287605FE004DD47A /* VirgilCrypto.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B32875FC2C00498EB8 /* VirgilCrypto.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D388287605FE004DD47A /* VirgilCryptoFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B82875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework */; };
+		9776D389287605FE004DD47A /* VirgilCryptoFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B82875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D38A287605FE004DD47A /* VirgilCryptoPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BB2875FC2D00498EB8 /* VirgilCryptoPythia.xcframework */; };
+		9776D38B287605FE004DD47A /* VirgilCryptoPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BB2875FC2D00498EB8 /* VirgilCryptoPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D38C287605FE004DD47A /* VirgilCryptoRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B72875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework */; };
+		9776D38D287605FE004DD47A /* VirgilCryptoRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B72875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D38E287605FE004DD47A /* VirgilE3Kit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B62875FC2D00498EB8 /* VirgilE3Kit.xcframework */; };
+		9776D38F287605FE004DD47A /* VirgilE3Kit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B62875FC2D00498EB8 /* VirgilE3Kit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D390287605FE004DD47A /* VirgilSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B92875FC2D00498EB8 /* VirgilSDK.xcframework */; };
+		9776D391287605FE004DD47A /* VirgilSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B92875FC2D00498EB8 /* VirgilSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D392287605FE004DD47A /* VirgilSDKPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BE2875FC2D00498EB8 /* VirgilSDKPythia.xcframework */; };
+		9776D393287605FE004DD47A /* VirgilSDKPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BE2875FC2D00498EB8 /* VirgilSDKPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D394287605FE004DD47A /* VirgilSDKRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B52875FC2D00498EB8 /* VirgilSDKRatchet.xcframework */; };
+		9776D395287605FE004DD47A /* VirgilSDKRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B52875FC2D00498EB8 /* VirgilSDKRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D396287605FE004DD47A /* VSCCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BC2875FC2D00498EB8 /* VSCCommon.xcframework */; };
+		9776D397287605FE004DD47A /* VSCCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BC2875FC2D00498EB8 /* VSCCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D398287605FE004DD47A /* VSCFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B42875FC2D00498EB8 /* VSCFoundation.xcframework */; };
+		9776D399287605FE004DD47A /* VSCFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0B42875FC2D00498EB8 /* VSCFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D39A287605FE004DD47A /* VSCPythia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BA2875FC2D00498EB8 /* VSCPythia.xcframework */; };
+		9776D39B287605FE004DD47A /* VSCPythia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BA2875FC2D00498EB8 /* VSCPythia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D39C287605FE004DD47A /* VSCRatchet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BD2875FC2D00498EB8 /* VSCRatchet.xcframework */; };
+		9776D39D287605FE004DD47A /* VSCRatchet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9747D0BD2875FC2D00498EB8 /* VSCRatchet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9776D3A128760BA1004DD47A /* EThreeTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9776D3A028760BA1004DD47A /* EThreeTester.swift */; };
+		9776D3A228760BA1004DD47A /* EThreeTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9776D3A028760BA1004DD47A /* EThreeTester.swift */; };
+		9776D3A428760E44004DD47A /* TestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9776D3A328760E44004DD47A /* TestConfig.swift */; };
+		9776D3A528760E44004DD47A /* TestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9776D3A328760E44004DD47A /* TestConfig.swift */; };
+		9776D3A728760E59004DD47A /* TokenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9776D3A628760E59004DD47A /* TokenGenerator.swift */; };
+		9776D3A828760E59004DD47A /* TokenGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9776D3A628760E59004DD47A /* TokenGenerator.swift */; };
+		9776D3AA28760EF4004DD47A /* TestConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9776D3A928760EF4004DD47A /* TestConfig.plist */; };
+		9776D3AB28760EF5004DD47A /* TestConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9776D3A928760EF4004DD47A /* TestConfig.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9747D0E72875FC5300498EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9747D0932875F90900498EB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9747D0DB2875FC5200498EB8;
+			remoteInfo = TestAutoFillProvider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9747D0D72875FC2D00498EB8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9747D0D62875FC2D00498EB8 /* VirgilSDKPythia.xcframework in Embed Frameworks */,
+				9747D0D42875FC2D00498EB8 /* VSCRatchet.xcframework in Embed Frameworks */,
+				9747D0C82875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework in Embed Frameworks */,
+				9747D0C02875FC2D00498EB8 /* VirgilCrypto.xcframework in Embed Frameworks */,
+				9747D0C42875FC2D00498EB8 /* VirgilSDKRatchet.xcframework in Embed Frameworks */,
+				9747D0C22875FC2D00498EB8 /* VSCFoundation.xcframework in Embed Frameworks */,
+				9747D0D02875FC2D00498EB8 /* VirgilCryptoPythia.xcframework in Embed Frameworks */,
+				9747D0CA2875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework in Embed Frameworks */,
+				9747D0C62875FC2D00498EB8 /* VirgilE3Kit.xcframework in Embed Frameworks */,
+				9747D0D22875FC2D00498EB8 /* VSCCommon.xcframework in Embed Frameworks */,
+				9747D0CC2875FC2D00498EB8 /* VirgilSDK.xcframework in Embed Frameworks */,
+				9747D0CE2875FC2D00498EB8 /* VSCPythia.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9747D0ED2875FC5300498EB8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9747D0E92875FC5300498EB8 /* TestAutoFillProvider.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9776D39E287605FE004DD47A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9776D389287605FE004DD47A /* VirgilCryptoFoundation.xcframework in Embed Frameworks */,
+				9776D399287605FE004DD47A /* VSCFoundation.xcframework in Embed Frameworks */,
+				9776D39B287605FE004DD47A /* VSCPythia.xcframework in Embed Frameworks */,
+				9776D38F287605FE004DD47A /* VirgilE3Kit.xcframework in Embed Frameworks */,
+				9776D39D287605FE004DD47A /* VSCRatchet.xcframework in Embed Frameworks */,
+				9776D393287605FE004DD47A /* VirgilSDKPythia.xcframework in Embed Frameworks */,
+				9776D38B287605FE004DD47A /* VirgilCryptoPythia.xcframework in Embed Frameworks */,
+				9776D397287605FE004DD47A /* VSCCommon.xcframework in Embed Frameworks */,
+				9776D387287605FE004DD47A /* VirgilCrypto.xcframework in Embed Frameworks */,
+				9776D395287605FE004DD47A /* VirgilSDKRatchet.xcframework in Embed Frameworks */,
+				9776D38D287605FE004DD47A /* VirgilCryptoRatchet.xcframework in Embed Frameworks */,
+				9776D391287605FE004DD47A /* VirgilSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9747D09B2875F90900498EB8 /* TestE3Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestE3Kit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9747D09E2875F90900498EB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9747D0A02875F90900498EB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9747D0A22875F90900498EB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9747D0A52875F90900498EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9747D0A72875F90C00498EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9747D0AA2875F90C00498EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9747D0AC2875F90C00498EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9747D0B32875FC2C00498EB8 /* VirgilCrypto.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VirgilCrypto.xcframework; path = Carthage/Build/VirgilCrypto.xcframework; sourceTree = "<group>"; };
+		9747D0B42875FC2D00498EB8 /* VSCFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VSCFoundation.xcframework; path = Carthage/Build/VSCFoundation.xcframework; sourceTree = "<group>"; };
+		9747D0B52875FC2D00498EB8 /* VirgilSDKRatchet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VirgilSDKRatchet.xcframework; path = Carthage/Build/VirgilSDKRatchet.xcframework; sourceTree = "<group>"; };
+		9747D0B62875FC2D00498EB8 /* VirgilE3Kit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VirgilE3Kit.xcframework; path = Carthage/Build/VirgilE3Kit.xcframework; sourceTree = "<group>"; };
+		9747D0B72875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VirgilCryptoRatchet.xcframework; path = Carthage/Build/VirgilCryptoRatchet.xcframework; sourceTree = "<group>"; };
+		9747D0B82875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VirgilCryptoFoundation.xcframework; path = Carthage/Build/VirgilCryptoFoundation.xcframework; sourceTree = "<group>"; };
+		9747D0B92875FC2D00498EB8 /* VirgilSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VirgilSDK.xcframework; path = Carthage/Build/VirgilSDK.xcframework; sourceTree = "<group>"; };
+		9747D0BA2875FC2D00498EB8 /* VSCPythia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VSCPythia.xcframework; path = Carthage/Build/VSCPythia.xcframework; sourceTree = "<group>"; };
+		9747D0BB2875FC2D00498EB8 /* VirgilCryptoPythia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VirgilCryptoPythia.xcframework; path = Carthage/Build/VirgilCryptoPythia.xcframework; sourceTree = "<group>"; };
+		9747D0BC2875FC2D00498EB8 /* VSCCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VSCCommon.xcframework; path = Carthage/Build/VSCCommon.xcframework; sourceTree = "<group>"; };
+		9747D0BD2875FC2D00498EB8 /* VSCRatchet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VSCRatchet.xcframework; path = Carthage/Build/VSCRatchet.xcframework; sourceTree = "<group>"; };
+		9747D0BE2875FC2D00498EB8 /* VirgilSDKPythia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = VirgilSDKPythia.xcframework; path = Carthage/Build/VirgilSDKPythia.xcframework; sourceTree = "<group>"; };
+		9747D0DC2875FC5200498EB8 /* TestAutoFillProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TestAutoFillProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9747D0DD2875FC5200498EB8 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		9747D0E02875FC5200498EB8 /* CredentialProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialProviderViewController.swift; sourceTree = "<group>"; };
+		9747D0E32875FC5200498EB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9747D0E52875FC5200498EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9747D0E62875FC5300498EB8 /* TestAutoFillProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestAutoFillProvider.entitlements; sourceTree = "<group>"; };
+		9747D0EE2875FED200498EB8 /* TestE3Kit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestE3Kit.entitlements; sourceTree = "<group>"; };
+		9776D3A028760BA1004DD47A /* EThreeTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EThreeTester.swift; sourceTree = "<group>"; };
+		9776D3A328760E44004DD47A /* TestConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConfig.swift; sourceTree = "<group>"; };
+		9776D3A628760E59004DD47A /* TokenGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenGenerator.swift; sourceTree = "<group>"; };
+		9776D3A928760EF4004DD47A /* TestConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestConfig.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9747D0982875F90900498EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9747D0D52875FC2D00498EB8 /* VirgilSDKPythia.xcframework in Frameworks */,
+				9747D0D32875FC2D00498EB8 /* VSCRatchet.xcframework in Frameworks */,
+				9747D0C72875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework in Frameworks */,
+				9747D0BF2875FC2D00498EB8 /* VirgilCrypto.xcframework in Frameworks */,
+				9747D0C32875FC2D00498EB8 /* VirgilSDKRatchet.xcframework in Frameworks */,
+				9747D0C12875FC2D00498EB8 /* VSCFoundation.xcframework in Frameworks */,
+				9747D0CF2875FC2D00498EB8 /* VirgilCryptoPythia.xcframework in Frameworks */,
+				9747D0C92875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework in Frameworks */,
+				9747D0C52875FC2D00498EB8 /* VirgilE3Kit.xcframework in Frameworks */,
+				9747D0EF2875FED200498EB8 /* AuthenticationServices.framework in Frameworks */,
+				9747D0D12875FC2D00498EB8 /* VSCCommon.xcframework in Frameworks */,
+				9747D0CB2875FC2D00498EB8 /* VirgilSDK.xcframework in Frameworks */,
+				9747D0CD2875FC2D00498EB8 /* VSCPythia.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9747D0D92875FC5200498EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9776D392287605FE004DD47A /* VirgilSDKPythia.xcframework in Frameworks */,
+				9776D38C287605FE004DD47A /* VirgilCryptoRatchet.xcframework in Frameworks */,
+				9776D39C287605FE004DD47A /* VSCRatchet.xcframework in Frameworks */,
+				9747D0DE2875FC5200498EB8 /* AuthenticationServices.framework in Frameworks */,
+				9776D388287605FE004DD47A /* VirgilCryptoFoundation.xcframework in Frameworks */,
+				9776D38A287605FE004DD47A /* VirgilCryptoPythia.xcframework in Frameworks */,
+				9776D386287605FE004DD47A /* VirgilCrypto.xcframework in Frameworks */,
+				9776D38E287605FE004DD47A /* VirgilE3Kit.xcframework in Frameworks */,
+				9776D396287605FE004DD47A /* VSCCommon.xcframework in Frameworks */,
+				9776D394287605FE004DD47A /* VirgilSDKRatchet.xcframework in Frameworks */,
+				9776D398287605FE004DD47A /* VSCFoundation.xcframework in Frameworks */,
+				9776D390287605FE004DD47A /* VirgilSDK.xcframework in Frameworks */,
+				9776D39A287605FE004DD47A /* VSCPythia.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9747D0922875F90900498EB8 = {
+			isa = PBXGroup;
+			children = (
+				9776D39F28760B84004DD47A /* SharedSource */,
+				9747D09D2875F90900498EB8 /* TestE3Kit */,
+				9747D0DF2875FC5200498EB8 /* TestAutoFillProvider */,
+				9747D09C2875F90900498EB8 /* Products */,
+				9747D0B22875FC2C00498EB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9747D09C2875F90900498EB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9747D09B2875F90900498EB8 /* TestE3Kit.app */,
+				9747D0DC2875FC5200498EB8 /* TestAutoFillProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9747D09D2875F90900498EB8 /* TestE3Kit */ = {
+			isa = PBXGroup;
+			children = (
+				9747D0EE2875FED200498EB8 /* TestE3Kit.entitlements */,
+				9747D09E2875F90900498EB8 /* AppDelegate.swift */,
+				9747D0A02875F90900498EB8 /* SceneDelegate.swift */,
+				9747D0A22875F90900498EB8 /* ViewController.swift */,
+				9747D0A42875F90900498EB8 /* Main.storyboard */,
+				9747D0A72875F90C00498EB8 /* Assets.xcassets */,
+				9747D0A92875F90C00498EB8 /* LaunchScreen.storyboard */,
+				9747D0AC2875F90C00498EB8 /* Info.plist */,
+			);
+			path = TestE3Kit;
+			sourceTree = "<group>";
+		};
+		9747D0B22875FC2C00498EB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9747D0B32875FC2C00498EB8 /* VirgilCrypto.xcframework */,
+				9747D0B82875FC2D00498EB8 /* VirgilCryptoFoundation.xcframework */,
+				9747D0BB2875FC2D00498EB8 /* VirgilCryptoPythia.xcframework */,
+				9747D0B72875FC2D00498EB8 /* VirgilCryptoRatchet.xcframework */,
+				9747D0B62875FC2D00498EB8 /* VirgilE3Kit.xcframework */,
+				9747D0B92875FC2D00498EB8 /* VirgilSDK.xcframework */,
+				9747D0BE2875FC2D00498EB8 /* VirgilSDKPythia.xcframework */,
+				9747D0B52875FC2D00498EB8 /* VirgilSDKRatchet.xcframework */,
+				9747D0BC2875FC2D00498EB8 /* VSCCommon.xcframework */,
+				9747D0B42875FC2D00498EB8 /* VSCFoundation.xcframework */,
+				9747D0BA2875FC2D00498EB8 /* VSCPythia.xcframework */,
+				9747D0BD2875FC2D00498EB8 /* VSCRatchet.xcframework */,
+				9747D0DD2875FC5200498EB8 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9747D0DF2875FC5200498EB8 /* TestAutoFillProvider */ = {
+			isa = PBXGroup;
+			children = (
+				9747D0E02875FC5200498EB8 /* CredentialProviderViewController.swift */,
+				9747D0E22875FC5200498EB8 /* MainInterface.storyboard */,
+				9747D0E52875FC5200498EB8 /* Info.plist */,
+				9747D0E62875FC5300498EB8 /* TestAutoFillProvider.entitlements */,
+			);
+			path = TestAutoFillProvider;
+			sourceTree = "<group>";
+		};
+		9776D39F28760B84004DD47A /* SharedSource */ = {
+			isa = PBXGroup;
+			children = (
+				9776D3AC28760F07004DD47A /* Config */,
+				9776D3A628760E59004DD47A /* TokenGenerator.swift */,
+				9776D3A028760BA1004DD47A /* EThreeTester.swift */,
+			);
+			path = SharedSource;
+			sourceTree = "<group>";
+		};
+		9776D3AC28760F07004DD47A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9776D3A928760EF4004DD47A /* TestConfig.plist */,
+				9776D3A328760E44004DD47A /* TestConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9747D09A2875F90900498EB8 /* TestE3Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9747D0AF2875F90C00498EB8 /* Build configuration list for PBXNativeTarget "TestE3Kit" */;
+			buildPhases = (
+				9747D0972875F90900498EB8 /* Sources */,
+				9747D0982875F90900498EB8 /* Frameworks */,
+				9747D0992875F90900498EB8 /* Resources */,
+				9747D0D72875FC2D00498EB8 /* Embed Frameworks */,
+				9747D0ED2875FC5300498EB8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9747D0E82875FC5300498EB8 /* PBXTargetDependency */,
+			);
+			name = TestE3Kit;
+			productName = TestE3Kit;
+			productReference = 9747D09B2875F90900498EB8 /* TestE3Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9747D0DB2875FC5200498EB8 /* TestAutoFillProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9747D0EA2875FC5300498EB8 /* Build configuration list for PBXNativeTarget "TestAutoFillProvider" */;
+			buildPhases = (
+				9747D0D82875FC5200498EB8 /* Sources */,
+				9747D0D92875FC5200498EB8 /* Frameworks */,
+				9747D0DA2875FC5200498EB8 /* Resources */,
+				9776D39E287605FE004DD47A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAutoFillProvider;
+			productName = TestAutoFillProvider;
+			productReference = 9747D0DC2875FC5200498EB8 /* TestAutoFillProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9747D0932875F90900498EB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9747D09A2875F90900498EB8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					9747D0DB2875FC5200498EB8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9747D0962875F90900498EB8 /* Build configuration list for PBXProject "TestE3Kit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9747D0922875F90900498EB8;
+			productRefGroup = 9747D09C2875F90900498EB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9747D09A2875F90900498EB8 /* TestE3Kit */,
+				9747D0DB2875FC5200498EB8 /* TestAutoFillProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9747D0992875F90900498EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9776D3AA28760EF4004DD47A /* TestConfig.plist in Resources */,
+				9747D0AB2875F90C00498EB8 /* LaunchScreen.storyboard in Resources */,
+				9747D0A82875F90C00498EB8 /* Assets.xcassets in Resources */,
+				9747D0A62875F90900498EB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9747D0DA2875FC5200498EB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9776D3AB28760EF5004DD47A /* TestConfig.plist in Resources */,
+				9747D0E42875FC5200498EB8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9747D0972875F90900498EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9747D0A32875F90900498EB8 /* ViewController.swift in Sources */,
+				9776D3A128760BA1004DD47A /* EThreeTester.swift in Sources */,
+				9776D3A428760E44004DD47A /* TestConfig.swift in Sources */,
+				9747D09F2875F90900498EB8 /* AppDelegate.swift in Sources */,
+				9776D3A728760E59004DD47A /* TokenGenerator.swift in Sources */,
+				9747D0A12875F90900498EB8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9747D0D82875FC5200498EB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9747D0E12875FC5200498EB8 /* CredentialProviderViewController.swift in Sources */,
+				9776D3A228760BA1004DD47A /* EThreeTester.swift in Sources */,
+				9776D3A828760E59004DD47A /* TokenGenerator.swift in Sources */,
+				9776D3A528760E44004DD47A /* TestConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9747D0E82875FC5300498EB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9747D0DB2875FC5200498EB8 /* TestAutoFillProvider */;
+			targetProxy = 9747D0E72875FC5300498EB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9747D0A42875F90900498EB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9747D0A52875F90900498EB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9747D0A92875F90C00498EB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9747D0AA2875F90C00498EB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9747D0E22875FC5200498EB8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9747D0E32875FC5200498EB8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9747D0AD2875F90C00498EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9747D0AE2875F90C00498EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9747D0B02875F90C00498EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestE3Kit/TestE3Kit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MS3LY2W55D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestE3Kit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestE3Kit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9747D0B12875F90C00498EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestE3Kit/TestE3Kit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MS3LY2W55D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestE3Kit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestE3Kit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9747D0EB2875FC5300498EB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TestAutoFillProvider/TestAutoFillProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MS3LY2W55D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestAutoFillProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestAutoFillProvider;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestE3Kit.TestAutoFillProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9747D0EC2875FC5300498EB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TestAutoFillProvider/TestAutoFillProvider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MS3LY2W55D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestAutoFillProvider/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TestAutoFillProvider;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestE3Kit.TestAutoFillProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9747D0962875F90900498EB8 /* Build configuration list for PBXProject "TestE3Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9747D0AD2875F90C00498EB8 /* Debug */,
+				9747D0AE2875F90C00498EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9747D0AF2875F90C00498EB8 /* Build configuration list for PBXNativeTarget "TestE3Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9747D0B02875F90C00498EB8 /* Debug */,
+				9747D0B12875F90C00498EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9747D0EA2875FC5300498EB8 /* Build configuration list for PBXNativeTarget "TestAutoFillProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9747D0EB2875FC5300498EB8 /* Debug */,
+				9747D0EC2875FC5300498EB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9747D0932875F90900498EB8 /* Project object */;
+}
