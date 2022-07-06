@@ -2,6 +2,7 @@
 - Go to `/SharedSource/Config/` and rename `TestConfigExample.plist` --> `TestConfig.plist`
 - Fill `TestConfig.plist` with your data
 - Run main app to register user
+- Go to settings and enable autofill for your new app
 - Attach to `TestAutoFillProvider` proccess
 - Put breakpoint after **print** command at `TestAutofillProvider/CredentialProviderViewController.swift`
 - Select in device UI of autofill "Return Example Password"
